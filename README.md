@@ -32,5 +32,5 @@ pip install mistralai
 * This implementation uses the `mistralai` library for interacting with the Mistral LLM. You can replace it with your preferred LLM provider.
 * You can modify the prompt templates and search parameters to suit your specific problem.
 
-
-I hope this helps you implement Tree of Thoughts prompting in your projects. Let me know if you have any other questions.
+## Copyright Notice
+The algorithms implemented in this repository are self-written and subject to copyright. They are provided for educational and research purposes only. Any commercial use or redistribution requires explicit permission from the author.
