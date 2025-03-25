@@ -20,10 +20,10 @@ python from collections import deque import math import heapq from mistralai imp
 
 3. **Define Prompt Templates:**
 python thought_generation_prompts = [
-# ... (List of Thought prompts to create a individual thought trees)
+  # ... (List of Thought prompts to create a individual thought trees)
 ]
 evaluation_prompts = [
-# ... (Your evaluation prompts for each step)
+  # ... (Your evaluation prompts for each step)
 ]
 
 ## Configuration
