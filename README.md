@@ -13,18 +13,11 @@ The following search algorithms are implemented for ToT:
 **Implementation Details**:
 
 1. **Install Dependencies:**
-bash !pip install openai !pip install langchain !pip install langchain_community !pip install -U langchain-openai !pip install mistralai
+pip install mistralai
 
-2. **Import Libraries:**
-python from collections import deque import math import heapq from mistralai import Mistral
-
-3. **Define Prompt Templates:**
-python thought_generation_prompts = [
-  # ... (List of Thought prompts to create a individual thought trees)
-]
-evaluation_prompts = [
-  # ... (Your evaluation prompts for each step)
-]
+2. **Define Prompt Templates:**
+```thought_generation_prompts = [(List of Thought prompts to create a individual thought trees)]```
+```evaluation_prompts = [(Your evaluation prompts for each step)]```
 
 ## Configuration
 
